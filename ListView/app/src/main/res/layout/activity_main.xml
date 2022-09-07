@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/edtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/them"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Thêm"/>
+        <Button
+            android:id="@+id/capnhat"
+            android:layout_marginLeft="100dp"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Cập nhật"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="50dp"
+        android:id="@+id/listviewMonHoc"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+</LinearLayout>
